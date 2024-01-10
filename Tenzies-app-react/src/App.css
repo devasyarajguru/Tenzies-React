@@ -1,9 +1,19 @@
+/* Main element*/
 main{
   
-   background-color: #F5F5F5;
-  height: 400px;
-  max-width:800px;
+  background-color: #F5F5F5;
+  height: 500px;
+  width: 500px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+/* Dice container shapin it into grid*/
+.dice-container
+{
+  display: grid;
+  grid-template:auto auto / repeat(5,1fr);
+  gap: 20px;
+}
 
