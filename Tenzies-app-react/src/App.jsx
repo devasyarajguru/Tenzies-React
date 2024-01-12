@@ -34,9 +34,9 @@ export default function App()
     setdiceValues(allNewDice())
   }
   
-  function holdDice()
+  function holdDice(id)
   {
-    console.log(diceValues.id)
+    console.log(id)
   }
 
   holdDice()
